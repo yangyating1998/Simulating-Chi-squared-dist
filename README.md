@@ -1,22 +1,27 @@
 # Simulating-Chi-squared-dist
 
 ## Code
-This code is used to simulating Chi-square distribution
+So far, this code can simulate chi-square distribution by simulating sample variance distribution.
+- sample: randomly selected from a population obeying chi-square distribution
+- sample variance: the variance of a sample
 
-NO actual data is been testified; this is the IDEAL chi-sqaure distribution
+## Chi-square distribution
+- Chi-square distribution is determined by degree of freedom
+- Sample variance distribution is influenced by degree of freedom and sample size
+
+# NEXT TO DO
+- actual data test
 
 ## Chi-Sqaure test
-Application: test whether two non-numerical (categorical) random variables influence each other
+Application
+- test whether two non-numerical (categorical) random variables influence each other
+- Using alpha level to determine whether reject the null assumption or not
 
-Example: color of eyes & gender
+Example
+- color of eyes & gender
+- null assumption (default assumption): there is no relationship between a person's eye color and the gender 
 
-## Math Terms, Assumptions, and Results
 
-### Math Terms
-df degree of freedom, df changes the distribution
 
-### Assumptions
-Null assumption: Chi-square assumes no relationship between two variables
-
-### Results
-Using alpha level to determine whether reject the null assumption or not
+## To be improved
+- test actual data
