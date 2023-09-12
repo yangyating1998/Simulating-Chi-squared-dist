@@ -9,7 +9,6 @@ for i in range(rep):
     var = np.var(sample)
     var_all.append(var)
 
-
 plt.hist(var_all)
 
 print(min(var_all), max(var_all), np.mean(var_all), np.var(var_all))
