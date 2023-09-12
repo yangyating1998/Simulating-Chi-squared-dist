@@ -1,3 +1,4 @@
+# simulating sample variance
 df = 5 
 sample_size = 10
 rep = 20000
